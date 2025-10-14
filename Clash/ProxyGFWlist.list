@@ -59,7 +59,6 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,hentai
-DOMAIN-KEYWORD,-plus
 DOMAIN-KEYWORD,tampermonkey
 DOMAIN-KEYWORD,hiperdex
 DOMAIN-KEYWORD,webtoon
@@ -68,8 +67,20 @@ DOMAIN-KEYWORD,ho5ho
 DOMAIN-KEYWORD,picacomic
 DOMAIN-KEYWORD,wnimg1
 
+
 # GFW list
+DOMAIN-SUFFIX,soul-plus.net
+DOMAIN-SUFFIX,north-plus.net
+DOMAIN-SUFFIX,south-plus.net
+DOMAIN-SUFFIX,white-plus.net
+DOMAIN-SUFFIX,level-plus.net
+DOMAIN-SUFFIX,summer-plus.net
+DOMAIN-SUFFIX,spring-plus.net
+DOMAIN-SUFFIX,snow-plus.net
+DOMAIN-SUFFIX,east-plus.net
+DOMAIN-SUFFIX,blue-plus.net
 DOMAIN-SUFFIX,nicecat.cc
+DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,gfwlist.start
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
