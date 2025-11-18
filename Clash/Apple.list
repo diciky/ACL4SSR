@@ -1,6 +1,7 @@
 # Apple
 # 一般国内Apple肯定正常,不需要开代理
-DOMAIN,apple.comscoreresearch.com
+
+# 保持所有 DOMAIN-SUFFIX 规则，它们覆盖了大多数特定域名
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -19,56 +20,19 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+
+# 保留未被 DOMAIN-SUFFIX 规则涵盖的特定 DOMAIN 或特殊需要的域名
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask.apple-dns.net
+DOMAIN,apple.comscoreresearch.com
+
+# 精简后的 IP-CIDR 列表 (已移除 144.178.36.0/22 和 144.178.48.0/20)
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
 IP-CIDR,139.178.128.0/18,no-resolve
 IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,144.178.36.0/22,no-resolve
-IP-CIDR,144.178.48.0/20,no-resolve
 IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
-DOMAIN,adcdownload.apple.com.akadns.net
-DOMAIN,adcdownload.apple.com
-DOMAIN,amp-api-updates.apps.apple.com
-DOMAIN,amp-api.media.apple.com
-DOMAIN,app-site-association.cdn-apple.com
-DOMAIN,appldnld.apple.com
-DOMAIN,bag-cdn.itunes-apple.com.akadns.net
-DOMAIN,cds.apple.com.akadns.net
-DOMAIN,clientflow.apple.com.akadns.net
-DOMAIN,cn-smp-paymentservices.apple.com
-DOMAIN,configuration.apple.com.akadns.net
-DOMAIN,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,gspe19-2-cn-ssl.ls-apple.com.akadns.net
-DOMAIN,gspe19-cn.ls-apple.com.akadns.net
-DOMAIN,icloud-cdn.icloud.com.akadns.net
-DOMAIN,images.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,init-p01md-lb.push-apple.com.akadns.net
-DOMAIN,init-p01st-lb.push-apple.com.akadns.net
-DOMAIN,init-s01st-lb.push-apple.com.akadns.net
-DOMAIN,iphone-ld.origin-apple.com.akadns.net
-DOMAIN,is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net
-DOMAIN,itunes-apple.com.akadns.net
-DOMAIN,mesu-cdn.apple.com.akadns.net
-DOMAIN,mesu-china.apple.com.akadns.net
-DOMAIN,ocsp-lb.apple.com.akadns.net
-DOMAIN,ocsp2-lb.apple.com.akadns.net
-DOMAIN,oscdn.origin-apple.com.akadns.net
-DOMAIN,pancake.cdn-apple.com.akadns.net
-DOMAIN,prod-support.apple-support.akadns.net
-DOMAIN,stocks-sparkline-lb.apple.com.akadns.net
-DOMAIN,store.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,store.apple.com.edgekey.net
-DOMAIN,store.storeimages.apple.com.akadns.net
-DOMAIN,support-china.apple-support.akadns.net
-DOMAIN,swcatalog-cdn.apple.com.akadns.net
-DOMAIN,swdist.apple.com.akadns.net
-DOMAIN,swscan-cdn.apple.com.akadns.net
-DOMAIN,updates-http.cdn-apple.com.akadns.net
-DOMAIN,valid.origin-apple.com.akadns.net
-DOMAIN,weather-data.apple.com.akadns.net
-DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
-DOMAIN,www.apple.com
-DOMAIN,xp.apple.com
